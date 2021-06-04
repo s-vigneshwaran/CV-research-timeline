@@ -16,7 +16,7 @@ But with the help of modern frameworks its just a matter of couple of minutes to
 -   Tensorflow
 -   Replicating the architectures as mentioned in the original paper
 -   No improvements to the architectures are done
--   If the model is heavy and the weights to the model is available freely then they are used. If not, only the architecture is implemented
+-   For Largescale models which used huge datasets like ImageNet, only the architecture is implemented
 -   Data Generators are implemented to match the input dimensions as mentioned on the original paper
 -   Additional Pre-Processing techniques like color-correction, noise reduction are not implemented
 
