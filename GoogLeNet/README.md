@@ -6,4 +6,9 @@
 
 https://arxiv.org/abs/1409.4842
 
-![Google LeNet Architecture](https://miro.medium.com/max/5176/1*ZFPOSAted10TPd3hBQU8iQ.png)
+![GoogLeNet Architecture](https://miro.medium.com/max/5176/1*ZFPOSAted10TPd3hBQU8iQ.png)
+
+GoogLeNet is famously known as inception_v1.
+
+- This model is implemented using the tensorflow Functional API as it is not possible to implement using the Sequential models due to its limitaions.
+- Data Generators use flow from directory. So before running the cells after model.compile() please update the variables TRAIN, TEST and VALIDATION to the location of ImageNet dataset
