@@ -6,7 +6,7 @@
 
 I came across this image when I was searching about the history of Convolutional Neural Networks. I started reading the papers of these models in the chronological order.
 
-When I was reading, I realized that the papers were really the building blocks of current day's Computer Vision. One more point to note is that the models which were implemented originally were such a pain as there were no frameworks or any sort of it. Everything was coded from scratch.
+When I was reading, I realized that the papers are really the building blocks of current day's Computer Vision. One more point to note is that the early cnn models which were implemented originally were such a pain as there were no frameworks or any sort of it. Everything was coded from scratch.
 
 But with the help of modern frameworks its just a matter of couple of minutes to implement the architectures. So thats my motivation here. Reading and implementing landmark architectures is really a good way of understanding the trends in the field.
 
@@ -14,9 +14,10 @@ But with the help of modern frameworks its just a matter of couple of minutes to
 
 -   Python Notebooks
 -   Tensorflow
--   Replicating the architectures as mentioned in the original paper
--   No improvements to the architectures are done
--   For Largescale models which used huge datasets like ImageNet, only the architecture is implemented
+-   Tried to use Sequential models as much as possible as the objective is to keep it simple. But Functional APIs and Sub Classes are also used for some complicated models.
+-   Datasets mentioned in the paper are used and not datasets like mnist or cifar.
+-   Pretty much every model after LeNet used huge datasets. So only the architecture is implemented and are not trained.
+-   For models which are not trained, transfer learning notebooks are implemented(for certain papers only)
 -   Data Generators are implemented to match the input dimensions as mentioned on the original paper
 -   Additional Pre-Processing techniques like color-correction, noise reduction are not implemented
 
