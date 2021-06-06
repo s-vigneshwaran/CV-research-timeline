@@ -5,3 +5,7 @@
 https://arxiv.org/abs/1311.2524
 
 ![RCNN Architecture](https://neurohive.io/wp-content/uploads/2018/11/Capture-16.jpg)
+
+- 2000 regions are proposed from the image by running Selective Search Segmentaion[J. Uijlings, K. van de Sande, T. Gevers, and A. Smeulders.
+Selective search for object recognition. IJCV, 2013]
+- These proposed regions are feeded to a pre-trained AlexNet but instead of the softmax layer, it used Support Vector Machine to classify the image.
