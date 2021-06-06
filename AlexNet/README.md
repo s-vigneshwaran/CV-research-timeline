@@ -13,3 +13,4 @@ The first convolutional layer filters the 224×224×3 input image with 96 kernel
 - Learning Rate was adjusted throughout the training process."The heuristic which we followed was to divide the learning rate by 10 when the validation error rate stopped improving with the current learning rate. The learning rate was initialized at 0.01 and reduced three times prior to termination"
 - Local Response Normalization was used as at the time of implementation Batch Normalization was not yet invented. (Implemented Using Lambda Layer in this notebook)
 - In the original work, PCA was used to perform RGB corrections on the entire image training set.
+- Data Generators use flow from directory. So before running the cells after model.compile() please update the variables TRAIN, TEST and VALIDATION to the location of ImageNet dataset
