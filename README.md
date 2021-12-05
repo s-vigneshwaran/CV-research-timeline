@@ -1,4 +1,4 @@
-# Computer Vision Timeline (Repo in development)
+# Computer Vision Timeline (Repo under development)
 
 ### _Re-Implementation of landmark Computer Vision Papers_
 
